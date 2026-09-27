@@ -67,16 +67,4 @@ The Init Process (PID 1) is the parent process in Linux that initializes the sys
   * Command to check: `ps aux | grep Z`
 EOF
 
-# 3. Stage the newly created file for commit
-git add day2-notes.md
-
-# 4. Commit the file with a descriptive message
-git commit -m "Add Day 2 DevOps Linux commands and fundamentals"
-
-# 5. Rename default branch to main
-git branch -M main
-
-# 6. Connect your local repository to your remote GitHub repo
-# (Replace YOUR_USERNAME and YOUR_REPO with your actual GitHub details)
-git remote add origin https://github.com/YOUR_USERNAME/YOUR_REPO.git
 
