@@ -1,8 +1,4 @@
-# 1. Initialize a new Git repository locally (skip if already inside a Git repo)
-git init
 
-# 2. Create the file and add your notes content
-cat << 'EOF' > day2-notes.md
 # Day 2 DevOps Notes: Linux Commands & Fundamentals
 
 ## 1. Basic Navigation & File Operations
