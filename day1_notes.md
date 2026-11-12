@@ -43,12 +43,9 @@
 - Provides the graphical interface (GUI) for the user.
 
 ## 10. Linux System Architecture
+![Uploading a_clean_infographic_on_a_white_background_titled.png…]()
 
-cd Linux-Learning
-cp ~/Downloads/a_clean_infographic_on_a_white_background_titled.png linux-architecture.png
-git add .
-git commit -m "Add Linux Architecture image"
-git push origin main
+
 
 ## 11. Hardware Information Commands
 - **CPU Information & System Monitoring:**
