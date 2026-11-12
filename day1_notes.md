@@ -43,13 +43,13 @@
 - Provides the graphical interface (GUI) for the user.
 
 ## 10. Linux System Architecture
-```mermaid
-graph TD
-    A[User Space: Applications & Shells] --> B[System Call Interface]
-    B --> C[Kernel Space: Process, Memory, File & Network Management]
-    C --> D[Device Drivers]
-    D --> E[Hardware: CPU, RAM, Disk, I/O]
-```
+
+# Linux Architecture
+
+This diagram represents the Linux operating system architecture.
+
+![Linux Architecture](linux%20architecture.png)
+
 
 ## 11. Hardware Information Commands
 - **CPU Information & System Monitoring:**
