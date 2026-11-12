@@ -44,12 +44,7 @@
 
 ## 10. Linux System Architecture
 
-# Linux Architecture
-
-This diagram represents the Linux operating system architecture.
-
-![Linux Architecture](linux%20architecture.png)
-
+<img src="./images/linux%20architecture.png" alt="Linux Architecture" width="600">
 
 ## 11. Hardware Information Commands
 - **CPU Information & System Monitoring:**
