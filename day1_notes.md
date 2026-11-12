@@ -202,24 +202,5 @@ systemctl status ssh
 journalctl -n 20
 ```
 
-## 6. Conclusion
 
-Linux works through cooperation between the kernel, user space, processes, and systemd.
-
-- Kernel manages hardware and resources.
-- User space provides applications and commands.
-- Processes execute programs.
-- systemd manages system startup and services.
-
-Understanding these components is important for a DevOps Engineer because it helps with server management, troubleshooting, service monitoring, and automation.
-
-## 7. Learning Outcome
-
-After completing this practice, I understand:
-
-- Linux kernel architecture.
-- Difference between kernel and user space.
-- How processes are created and managed.
-- Why systemd is important.
-- How to inspect Linux services and processes.
 
