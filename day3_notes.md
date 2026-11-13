@@ -30,45 +30,64 @@
 ---
 
 ## 3. Process Management in Linux
-1. `ps aux` - Check all running processes[cite: 4]
-2. `top` - Real-time process monitor[cite: 4]
-3. `htop` - Improved process viewer (if installed)[cite: 4]
-4. `ps aux | grep nginx` - Find specific running process[cite: 4]
-5. `pstree` - Show process tree hierarchy[cite: 4]
-6. `kill PID` - Stop process by ID[cite: 4]
-7. `kill -9 PID` - Force stop process[cite: 4]
-8. `firefox &` - Run process in background[cite: 5]
-9. `jobs` - List background jobs[cite: 5]
-10. `fg` - Bring background process to foreground[cite: 5]
-11. `systemctl status ssh` - Check service process status[cite: 5]
-12. `sudo systemctl start ssh` / `sudo systemctl stop ssh` - Start or stop a service[cite: 5]
+1. `ps aux` - Check all running processes
+2. `top` - Real-time process monitor
+3. `htop` - Improved process viewer (if installed)
+4. `ps aux | grep nginx` - Find specific running process
+5. `pstree` - Show process tree hierarchy
+6. `kill PID` - Stop process by ID
+7. `kill -9 PID` - Force stop process
+8. `firefox &` - Run process in background
+9. `jobs` - List background jobs
+10. `fg` - Bring background process to foreground
+11. `systemctl status ssh` - Check service process status
+12. `sudo systemctl start ssh` / `sudo systemctl stop ssh` - Start or stop a service
 
 ---
 
 ## 4. Linux File System Structure
-- `/` - Root directory (top level)[cite: 5]
-- `/home` - User files and folders[cite: 5]
-- `/etc` - System configuration files[cite: 5]
-- `/bin` - Essential user commands[cite: 5]
-- `/var` - Logs and changing data[cite: 5]
-- `/tmp` - Temporary files[cite: 5]
-- `/usr` - User applications and programs[cite: 5]
-- `/dev` - Device files[cite: 5]
-- `/boot` - Bootloader and Kernel files[cite: 5]
+- `/` - Root directory (top level)
+- `/home` - User files and folders
+- `/etc` - System configuration files
+- `/bin` - Essential user commands
+- `/var` - Logs and changing data
+- `/tmp` - Temporary files
+- `/usr` - User applications and programs
+- `/dev` - Device files
+- `/boot` - Bootloader and Kernel files
 
 ---
 
 ## 5. Networking Troubleshooting in Linux
-*Networking troubleshooting means checking and fixing network problems such as no internet, DNS issues, connection failures, or blocked ports.*[cite: 6]
+*Networking troubleshooting means checking and fixing network problems such as no internet, DNS issues, connection failures, or blocked ports.
 
-### Common Commands:
-1. `ip a` - Check IP address[cite: 6]
-2. `ping google.com` - Check internet connectivity[cite: 6]
-3. `ip route` - Check routing table[cite: 6]
-4. `ss -tuln` - Display open ports and listening services[cite: 6]
-5. `dig google.com` - Check DNS resolution[cite: 6]
+1. `ip a` - Check IP address
+2. `ping google.com` - Check internet connectivity
+3. `ip route` - Check routing table
+4. `ss -tuln` - Display open ports and listening services
+5. `dig google.com` - Check DNS resolution
 6. `traceroute google.com` - Trace network path[cite: 6]
 7. `netstat -tulnp` - Check active network connections[cite: 6]
 
 ### Daily-Use Networking Commands Summary:
-`ip a`, `ping`, `ss`, `nslookup`, `traceroute`, `ssh`, `netstat`, `wget`[cite: 6]
+`ip a`, `ping`, `ss`, `nslookup`, `traceroute`, `ssh`, `netstat`, `wget`
+
+### Linux Troubleshooting Practice
+
+# Scenario
+Application running slowly on Ubuntu.
+
+# Commands Used
+
+1. uname -a - Check system information
+2. ps aux - Check running processes
+3. top - Monitor CPU usage
+4. free -h - Check memory
+5. df -h - Check disk space
+6. systemctl status nginx - Check service
+7. journalctl -u nginx -n 50 - Check logs
+8. ping -c 4 google.com - Check network
+
+# Conclusion
+Used Linux commands to check processes,
+CPU, memory, disk, services and logs.
