@@ -58,7 +58,7 @@
 
 ---
 
-## 5. Networking Troubleshooting in Linux
+# 5. Networking Troubleshooting in Linux
 *Networking troubleshooting means checking and fixing network problems such as no internet, DNS issues, connection failures, or blocked ports.
 
 1. `ip a` - Check IP address
@@ -69,15 +69,15 @@
 6. `traceroute google.com` - Trace network path[cite: 6]
 7. `netstat -tulnp` - Check active network connections[cite: 6]
 
-### Daily-Use Networking Commands Summary:
+## Daily-Use Networking Commands Summary:
 `ip a`, `ping`, `ss`, `nslookup`, `traceroute`, `ssh`, `netstat`, `wget`
 
-### Linux Troubleshooting Practice
+# Linux Troubleshooting Practice
 
-# Scenario
+## Scenario
 Application running slowly on Ubuntu.
 
-# Commands Used
+## Commands Used
 
 1. uname -a - Check system information
 2. ps aux - Check running processes
@@ -88,6 +88,6 @@ Application running slowly on Ubuntu.
 7. journalctl -u nginx -n 50 - Check logs
 8. ping -c 4 google.com - Check network
 
-# Conclusion
+## Conclusion
 Used Linux commands to check processes,
 CPU, memory, disk, services and logs.
