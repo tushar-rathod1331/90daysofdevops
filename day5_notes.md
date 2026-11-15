@@ -47,4 +47,5 @@
 
    
  ### Practical
- C:\Users\Alfaz Ali\Downloads\WhatsApp Image 2026-11-15 at 6.12.42 PM.jpeg
+ <img width="1600" height="785" alt="WhatsApp Image 2026-11-15 at 6 12 42 PM" src="https://github.com/user-attachments/assets/4a3165ed-615e-4660-9b61-33608b49b3ce" />
+
