@@ -43,7 +43,8 @@
 - Provides the graphical interface (GUI) for the user.
 
 ## 10. Linux System Architecture
-![Uploading linux architecture (2).png…]()
+<img width="515" height="364" alt="linux architecture" src="https://github.com/user-attachments/assets/902833f8-3f31-4b35-bc0c-ae9060a32d7c" />
+
 
 
 
