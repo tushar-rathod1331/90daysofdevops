@@ -1,4 +1,4 @@
-```markdown
+
 # Linux System Health & SSH Troubleshooting Runbook
 
 ## Day 4: Quick Health Snapshot (CPU, Memory, Disk, Network)
