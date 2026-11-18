@@ -1,6 +1,3 @@
-```markdown
-# Day 6: Linux File System Hierarchy
-
 ## Introduction
 The Linux File System Hierarchy organizes all files and directories in a structured way. Every file and directory starts from the root directory (`/`).
 
